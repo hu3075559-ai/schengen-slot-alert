@@ -1,0 +1,10 @@
+# 申根号位提醒 (Schengen Slot Alert)
+
+申根签证预约位放号提醒。面向中国申请人：订阅目的国+递交城市组合，每个工作日核查官方预约系统放号情况，有新的可预约时段即邮件提醒。只提醒，不代抢、不代填表、不代预约；不收集护照号等证件信息，只收邮箱与预约偏好。
+
+- 首页/订阅: https://schengen-slot-alert.pages.dev/
+- 预约流程: https://schengen-slot-alert.pages.dev/guide/appointment-process/
+- 放号规律: https://schengen-slot-alert.pages.dev/guide/slot-patterns/
+- 受理机构: https://schengen-slot-alert.pages.dev/guide/visa-centers/
+- 常见问题: https://schengen-slot-alert.pages.dev/faq/
+- 隐私说明: https://schengen-slot-alert.pages.dev/privacy/

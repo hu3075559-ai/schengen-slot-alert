@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://schengen-slot-alert.pages.dev/sitemap.xml
