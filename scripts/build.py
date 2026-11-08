@@ -15,10 +15,22 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PUBLIC = os.path.join(ROOT, "public")
 TODAY = "2026-11-06"
 
+GA_ID = "G-Q5SV4DD3W7"
+GTAG = """<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=%s"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '%s');
+</script>
+""" % (GA_ID, GA_ID)
+
 HEAD = """<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8">
+%GTAG%
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>%TITLE%</title>
 <meta name="description" content="%DESC%">
@@ -63,6 +75,7 @@ FOOT = """
 def page(path, title, desc, body, ogtype="website", jsonld=None):
     canon = SITE["domain"] + path
     html = HEAD.replace("%TITLE%", title).replace("%DESC%", desc)
+    html = html.replace("%GTAG%", GTAG)
     html = html.replace("%CANON%", canon).replace("%OGTYPE%", ogtype)
     html = html.replace("%SITENAME%", SITE["name"]).replace("%DOMAIN%", SITE["domain"])
     ld = ""
@@ -354,6 +367,7 @@ def main():
 
     # 404
     nf = HEAD.replace("%TITLE%", "页面未找到 | " + SITE["name"]).replace("%DESC%", "页面未找到")
+    nf = nf.replace("%GTAG%", GTAG)
     nf = nf.replace("%CANON%", SITE["domain"] + "/404.html").replace("%OGTYPE%", "website")
     nf = nf.replace("%SITENAME%", SITE["name"]).replace("%DOMAIN%", SITE["domain"]).replace("%JSONLD%", "")
     nf += '<section class="hero"><h1>404 · 页面未找到</h1><p class="lead">这个页面不存在。<a href="/">回到首页</a></p></section>'
