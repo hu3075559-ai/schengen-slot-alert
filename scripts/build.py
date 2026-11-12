@@ -137,6 +137,29 @@ FORM = """
 </section>
 """
 
+def form_html(source):
+    return (FORM.replace("%COUNTRY_OPTS%", options(COUNTRIES, "请选择目的国"))
+                .replace("%CITY_OPTS%", options(CITIES, "请选择递交城市"))
+                .replace("%VTYPE_OPTS%", options(VISA_TYPES, "请选择签证类型"))
+                .replace('data-source="home-form"', 'data-source="%s"' % source))
+
+
+MAIL_MOCK = """
+<section class="card">
+  <h2>提醒邮件长这样（示例）</h2>
+  <p class="fine">下面是一封提醒邮件的示意版式，仅作样式参考——不是真实放号通知。真实邮件只在你订阅的组合出现新时段时才发。</p>
+  <div class="mail-mock">
+    <p class="m-meta">发件人：申根号位提醒</p>
+    <p class="m-meta"><strong>主题：法国 · 上海 · 旅游 — 检测到新的可预约时段</strong></p>
+    <hr>
+    <p>你好，你订阅的组合（法国 · 上海 · 旅游）检测到新的可预约时段。</p>
+    <p>请尽快前往官方预约系统查看并自行预约，热门时段通常很快被约满。</p>
+    <p><span class="m-cta">去官方系统查看 →</span></p>
+    <p class="m-foot">这是一封提醒邮件，我们不代抢、不代预约。退订请直接回复本邮件注明「退订」。</p>
+  </div>
+</section>
+"""
+
 HOME_BODY = """
 <section class="hero">
   <h1>申根签证预约位，一有放号就邮件提醒你</h1>
@@ -162,6 +185,8 @@ HOME_BODY = """
     <li><strong>有号通知</strong>：发现新的可预约时段，当天发邮件到你的邮箱；你第一时间去官方系统自行预约。</li>
   </ol>
 </section>
+
+%MAIL_MOCK%
 
 <section class="card">
   <h2>先把时间账算清（官方口径）</h2>
@@ -324,31 +349,30 @@ def article_ld(title, desc, path):
 
 
 def main():
-    form = (FORM.replace("%COUNTRY_OPTS%", options(COUNTRIES, "请选择目的国"))
-                .replace("%CITY_OPTS%", options(CITIES, "请选择递交城市"))
-                .replace("%VTYPE_OPTS%", options(VISA_TYPES, "请选择签证类型")))
+    form = form_html("home-form")
     home_ld = {"@context": "https://schema.org", "@type": "WebSite",
                "name": SITE["name"], "url": SITE["domain"] + "/",
                "description": "申根签证预约位放号邮件提醒：每个工作日核查，只提醒不代抢。"}
     page("/", SITE["name"] + " | " + SITE["tagline"],
          "法国、德国、意大利等申根签证递签预约放号提醒：订阅国家+城市组合，每个工作日核查，有新的可预约时段当天邮件通知。只提醒，不代抢、不代预约，不收集证件信息。",
-         HOME_BODY.replace("%FORM%", form), jsonld=home_ld)
+         HOME_BODY.replace("%FORM%", form).replace("%MAIL_MOCK%", MAIL_MOCK), jsonld=home_ld)
 
     page("/guide/appointment-process/", "申根签证预约递交全流程 | " + SITE["name"],
          "从确定主访国、领区、在线填表、预约递交时段到录指纹、取护照的完整流程与官方时间口径。",
-         GUIDE_PROCESS.replace("%SOURCES%", SOURCES_NOTE), ogtype="article",
+         GUIDE_PROCESS.replace("%SOURCES%", SOURCES_NOTE) + form_html("guide-appointment-form"), ogtype="article",
          jsonld=article_ld("申根签证预约递交全流程", "申根签证预约递交的六个步骤与关键时间数字。", "/guide/appointment-process/"))
 
     page("/guide/slot-patterns/", "申根签证放号规律与刷号常识 | " + SITE["name"],
          "没有内部放号时刻表。讲清号源紧张的成因、回流位与加场放号等真实规律，以及黄牛代抢的风险。",
-         GUIDE_PATTERNS.replace("%SOURCES%", SOURCES_NOTE), ogtype="article",
+         GUIDE_PATTERNS.replace("%SOURCES%", SOURCES_NOTE) + form_html("guide-slots-form"), ogtype="article",
          jsonld=article_ld("申根签证放号规律与刷号常识", "号源紧张的成因与真实存在的放号规律。", "/guide/slot-patterns/"))
 
     rows = "\n".join(
         "    <tr><td>%s</td><td>%s</td><td>%s</td></tr>" % (c, p, n) for c, p, n in PROVIDERS)
     page("/guide/visa-centers/", "各国在华受理机构与领区常识 | " + SITE["name"],
          "法国荷兰走 TLScontact、西班牙走 BLS、德国意大利等走 VFS Global：受理机构对照表与领区选择常识。",
-         GUIDE_CENTERS.replace("%PROVIDER_ROWS%", rows).replace("%SOURCES%", SOURCES_NOTE),
+         GUIDE_CENTERS.replace("%PROVIDER_ROWS%", rows).replace("%SOURCES%", SOURCES_NOTE)
+         + form_html("guide-centers-form"),
          ogtype="article",
          jsonld=article_ld("各国在华受理机构与领区常识", "申根各国在华受理机构对照与领区常识。", "/guide/visa-centers/"))
 
@@ -359,7 +383,7 @@ def main():
                               "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in FAQ]}
     page("/faq/", "常见问题 | " + SITE["name"],
          "收费、核查频率、能否代抢、退订方式等常见问题。",
-         "<article>\n<h1>常见问题</h1>\n%s\n</article>" % faq_items, jsonld=faq_ld)
+         "<article>\n<h1>常见问题</h1>\n%s\n</article>" % faq_items + form_html("faq-form"), jsonld=faq_ld)
 
     page("/privacy/", "隐私说明 | " + SITE["name"],
          "本站只收集邮箱与预约偏好，不收集任何证件信息。",
