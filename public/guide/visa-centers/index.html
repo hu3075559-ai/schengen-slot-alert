@@ -88,6 +88,82 @@
 <p><a href="/#subscribe">→ 回到首页订阅放号提醒</a></p>
 </article>
 
+<section class="card" id="subscribe">
+  <h2>订阅放号提醒（验证期免费）</h2>
+  <form class="subscribe-form" data-source="guide-centers-form" novalidate>
+    <div class="grid">
+      <label>目的国（主访国）
+        <select name="country" required>
+        <option value="">请选择目的国</option>
+        <option value="法国">法国</option>
+        <option value="德国">德国</option>
+        <option value="意大利">意大利</option>
+        <option value="西班牙">西班牙</option>
+        <option value="荷兰">荷兰</option>
+        <option value="瑞士">瑞士</option>
+        <option value="奥地利">奥地利</option>
+        <option value="比利时">比利时</option>
+        <option value="希腊">希腊</option>
+        <option value="丹麦">丹麦</option>
+        <option value="挪威">挪威</option>
+        <option value="瑞典">瑞典</option>
+        <option value="芬兰">芬兰</option>
+        <option value="葡萄牙">葡萄牙</option>
+        <option value="捷克">捷克</option>
+        <option value="波兰">波兰</option>
+        <option value="匈牙利">匈牙利</option>
+        <option value="冰岛">冰岛</option>
+        <option value="其他申根国">其他申根国</option>
+        </select>
+      </label>
+      <label>递交城市（按常住地领区）
+        <select name="city" required>
+        <option value="">请选择递交城市</option>
+        <option value="北京">北京</option>
+        <option value="上海">上海</option>
+        <option value="广州">广州</option>
+        <option value="成都">成都</option>
+        <option value="沈阳">沈阳</option>
+        <option value="武汉">武汉</option>
+        <option value="南京">南京</option>
+        <option value="杭州">杭州</option>
+        <option value="深圳">深圳</option>
+        <option value="重庆">重庆</option>
+        <option value="昆明">昆明</option>
+        <option value="西安">西安</option>
+        <option value="长沙">长沙</option>
+        <option value="福州">福州</option>
+        <option value="济南">济南</option>
+        <option value="其他城市">其他城市</option>
+        </select>
+      </label>
+      <label>签证类型
+        <select name="vtype" required>
+        <option value="">请选择签证类型</option>
+        <option value="旅游">旅游</option>
+        <option value="商务">商务</option>
+        <option value="探亲访友">探亲访友</option>
+        <option value="学习/文化/其他">学习/文化/其他</option>
+        </select>
+      </label>
+      <label>计划出行月份（可选）
+        <input type="month" name="travel_month">
+      </label>
+    </div>
+    <label>接收提醒的邮箱
+      <input type="email" name="email" required placeholder="you@example.com" autocomplete="email">
+    </label>
+    <label class="check">
+      <input type="checkbox" name="paid_interest" value="yes">
+      付费版筹备中：更高核查频率＋多组合同步监控，上线时优先通知我
+    </label>
+    <input type="text" name="hp" value="" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <button type="submit">订阅提醒</button>
+    <p class="form-status" role="status"></p>
+    <p class="fine">只收集邮箱与上述预约偏好，不收集护照号等任何证件信息。退订：回复任意提醒邮件注明「退订」。</p>
+  </form>
+</section>
+
 </main>
 <footer class="site-footer">
   <p>申根号位提醒 · 申根签证预约位放号提醒。只做放号信息提醒，不代抢、不代填表、不代预约，不收集任何证件信息。</p>
