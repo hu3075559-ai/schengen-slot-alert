@@ -64,6 +64,7 @@ FOOT = """
 <footer class="site-footer">
   <p>%SITENAME% · %TAGLINE%。只做放号信息提醒，不代抢、不代填表、不代预约，不收集任何证件信息。</p>
   <p><a href="/privacy/">隐私说明</a> · <a href="/faq/">常见问题</a></p>
+  <p>更多出行工具：<a href="https://chinatransitvisa.pages.dev/">外国人来华工具（240 小时过境免签校验 · 离境退税计算）</a> · <a href="https://gxccz.com/">gxccz 工具导航</a></p>
 </footer>
 <script src="/assets/config.js"></script>
 <script src="/assets/subscribe.js"></script>
