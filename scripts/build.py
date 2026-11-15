@@ -206,6 +206,7 @@ HOME_BODY = """
     <li><a href="/guide/appointment-process/">申根签证预约递交全流程</a>：从定主访国到取护照的完整步骤。</li>
     <li><a href="/guide/slot-patterns/">放号规律与刷号常识</a>：没有内部时刻表，只有这些真实规律。</li>
     <li><a href="/guide/visa-centers/">各国在华受理机构与领区常识</a>：你该去 VFS、TLScontact 还是 BLS？</li>
+    <li><a href="/guide/no-appointment-slots/">申根签证预约不到号怎么办</a>：先分清是哪种「约不到」，再按五步走。</li>
   </ul>
 </section>
 """
@@ -321,6 +322,76 @@ GUIDE_CENTERS = """
 </article>
 """
 
+GUIDE_NO_SLOTS = """
+<article>
+<h1>申根签证预约不到号怎么办</h1>
+<p class="lead">先说结论：约不到号时别急着找人「代抢」，先分清你遇到的是哪种「约不到」——多数情况要么是选错了城市或签证类别，要么是正赶上旺季号源紧张。按下面五步走：核对官方渠道 → 利用取消回流与加场放号 → 算清时间账 → 自己刷号加订阅提醒兜底。整个过程只走官方预约系统，不向任何第三方付「抢号费」。</p>
+
+<h2>第一步：先分清你遇到的是哪种「约不到」</h2>
+<ul>
+  <li><strong>系统显示无可预约时段</strong>：最常见。说明该城市当前开放的日期都已被约满，不代表之后永远没号——取消回流与加场放号都会产生新时段。</li>
+  <li><strong>城市或领区选错了</strong>：申根各国按领区受理，原则上按常住地所属领区选择递交城市。跨领区递交可能被拒收，不要只看「哪里有号」就换城市，换之前先核对领区划分（见<a href="/guide/visa-centers/">受理机构对照页</a>）。</li>
+  <li><strong>在线申请没走完，进不了预约环节</strong>：多数国家要求先在官方系统完成在线申请（如法国的 France-Visas）才能预约递交时间。卡在填表环节会误以为「约不到号」，先把前置步骤走完。</li>
+  <li><strong>签证类别选错了</strong>：旅游、商务、探亲等类别的号源是分开的，类别选错可能一直显示无号。按真实出行目的选择。</li>
+</ul>
+
+<h2>第二步：回到官方渠道再核对一遍</h2>
+<ol>
+  <li>从目的国使领馆官网的签证页面出发，点它给出的官方链接进入预约系统（VFS Global / TLScontact / BLS 等），不要从搜索引擎里的中介页面进入。</li>
+  <li>逐项核对：目的国、递交城市、签证类别、申请人人数是否都选对了。</li>
+  <li>看看当地系统是否提供官方等候名单：部分国家和地区的预约系统设有官方排队或等候机制，有就加入——这是官方渠道，比反复刷新更省力。</li>
+  <li>确认账号信息无误：注册邮箱、手机号要能正常收信，提醒与确认信息都走这些渠道。</li>
+</ol>
+
+<h2>第三步：理解放号的真实规律</h2>
+<p>各签证中心没有公开发布的固定放号时间表，所谓「内部放号时刻」「几点必放号」都不可靠。但以下三类新号源是真实存在的：</p>
+<ul>
+  <li><strong>取消与改期回流</strong>：他人取消或改期的时段会重新回到系统里，临近日期偶尔能刷到「捡漏」位——零星出现，不是批量放号。</li>
+  <li><strong>临时加场批量放号</strong>：签证中心在旺季增加受理场次或人力时，会一次性放出一批新时段。这类放号没有预告，只能靠持续盯。</li>
+  <li><strong>新周期开放放号</strong>：部分国家的系统按周期开放可预约日期，开放当日号相对充足，几天内就会被订完。</li>
+</ul>
+<p>更完整的规律分析见<a href="/guide/slot-patterns/">放号规律与刷号常识</a>。</p>
+
+<h2>第四步：算一算时间账，行程太紧就改期</h2>
+<p>约不到号有时不是号的问题，而是行程定得太紧。按官方口径倒推：最早可提前 6 个月递交，最晚须在出行前 15 天递交，审理通常 15 个自然日、个别情况可延长至 45 天。如果按出行日倒推已经逼近最晚递交时间，即使今天约到号也可能赶不上——这时最稳妥的办法是调整出行日期，把申请窗口拉长。经验口径：建议在出行前 45–60 天启动申请。</p>
+
+<h2>第五步：自己刷号加订阅提醒，双管齐下</h2>
+<ul>
+  <li><strong>自己刷</strong>：有空时直接刷官方预约系统，重点关注取消回流位与新周期开放日。</li>
+  <li><strong>订阅提醒兜底</strong>：在本站订阅你所选的「国家＋城市」组合，我们每个工作日人工＋半自动核查一次，发现新的可预约时段当天发邮件提醒，你再去官方系统自行预约。提醒只能帮你尽早知道，不能保证一定约得上；本站也不是 24 小时实时监控，周末与节假日放出的号可能在下一个工作日才被核查到。</li>
+  <li><strong>行程灵活可考虑换主访国</strong>：冷门国家的受理量小、号明显宽松——但前提是符合主访国规则（停留最长或首入境），绝不能为了好约而编造行程。</li>
+</ul>
+
+<h2>务必避开的坑</h2>
+<ul>
+  <li><strong>黄牛代抢</strong>：预约名额与申请人信息绑定、不可转让；买来的号可能因信息不一致被签证中心拒收，还附带个人信息泄露风险。</li>
+  <li><strong>收费「内部渠道」「包中」</strong>：签证中心与使领馆多次提示，预约通过官方系统进行，除签证费与服务费外不应再向任何第三方付「抢号费」。任何声称掌握内部放号时刻的说法都不可靠。</li>
+  <li><strong>用机器人或脚本刷号</strong>：可能触发系统风控导致账号受限，得不偿失。</li>
+</ul>
+
+<section class="card">
+<h2>关键数字（官方口径）</h2>
+<ul class="data">
+  <li>递交窗口：出行前 6 个月 ～ 15 天之间。</li>
+  <li>审理时间：通常 15 个自然日，个别情况可延长至 45 天。</li>
+  <li>签证费：成人 90 欧元 / 6–12 岁 45 欧元 / 6 岁以下免费（2024-06-11 起）。</li>
+  <li>旅行医疗保险保额：不低于 3 万欧元。</li>
+  <li>本站核查频率：每个工作日人工＋半自动核查一次，不是 24 小时实时监控。</li>
+</ul>
+<p class="fine">%SOURCES%</p>
+</section>
+
+<section class="card">
+<h2>常见问题</h2>
+<div class="faq-item"><h3>申根签证预约显示没有号，是不是就约不上了？</h3><p>不是。显示无号只代表当前开放的日期已被约满。取消回流、临时加场与新周期开放都会产生新时段，持续关注官方系统或订阅放号提醒，仍有机会约到。</p></div>
+<div class="faq-item"><h3>换一个城市递交是不是更容易约到号？</h3><p>不同城市的号源紧张程度确实差别很大，但申根各国按领区受理，原则上要按常住地所属领区选择递交城市。跨领区递交可能被拒收，换城市前务必先核对领区划分，不要只看哪里有号。</p></div>
+<div class="faq-item"><h3>找人代抢号靠谱吗？</h3><p>不靠谱。预约名额与申请人信息绑定、不可转让，买来的号可能因信息不一致被拒收，还有个人信息泄露风险。签证中心与使领馆多次提示：预约通过官方系统进行，不要向第三方付「抢号费」。</p></div>
+<div class="faq-item"><h3>你们的放号提醒能保证我约到号吗？</h3><p>不能保证。提醒只能帮你尽早知道新时段出现，热门领区的号可能很快被订完，收到提醒后请第一时间去官方系统自行预约。本站每个工作日核查一次，不是 24 小时实时监控。</p></div>
+</section>
+<p><a href="/guide/appointment-process/">→ 先看预约递交全流程</a> · <a href="/#subscribe">→ 回到首页订阅放号提醒</a></p>
+</article>
+"""
+
 PRIVACY_BODY = """
 <article>
 <h1>隐私说明</h1>
@@ -336,14 +407,15 @@ PRIVACY_BODY = """
 """
 
 
-def article_ld(title, desc, path):
+def article_ld(title, desc, path, date=None):
+    d = date or TODAY
     return {
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": title,
         "description": desc,
-        "datePublished": TODAY,
-        "dateModified": TODAY,
+        "datePublished": d,
+        "dateModified": d,
         "author": {"@type": "Organization", "name": SITE["name"]},
         "mainEntityOfPage": SITE["domain"] + path,
     }
@@ -377,6 +449,29 @@ def main():
          ogtype="article",
          jsonld=article_ld("各国在华受理机构与领区常识", "申根各国在华受理机构对照与领区常识。", "/guide/visa-centers/"))
 
+    no_slots_faq = [
+        ("申根签证预约显示没有号，是不是就约不上了？",
+         "不是。显示无号只代表当前开放的日期已被约满。取消回流、临时加场与新周期开放都会产生新时段，持续关注官方系统或订阅放号提醒，仍有机会约到。"),
+        ("换一个城市递交是不是更容易约到号？",
+         "不同城市的号源紧张程度确实差别很大，但申根各国按领区受理，原则上要按常住地所属领区选择递交城市。跨领区递交可能被拒收，换城市前务必先核对领区划分，不要只看哪里有号。"),
+        ("找人代抢号靠谱吗？",
+         "不靠谱。预约名额与申请人信息绑定、不可转让，买来的号可能因信息不一致被拒收，还有个人信息泄露风险。签证中心与使领馆多次提示：预约通过官方系统进行，不要向第三方付「抢号费」。"),
+        ("你们的放号提醒能保证我约到号吗？",
+         "不能保证。提醒只能帮你尽早知道新时段出现，热门领区的号可能很快被订完，收到提醒后请第一时间去官方系统自行预约。本站每个工作日核查一次，不是 24 小时实时监控。"),
+    ]
+    no_slots_ld = {"@context": "https://schema.org", "@graph": [
+        article_ld("申根签证预约不到号怎么办",
+                   "约不到号时先分清是哪种「约不到」，再按官方渠道核对、利用取消回流与加场放号、算清时间账，最后用订阅提醒兜底。",
+                   "/guide/no-appointment-slots/", date="2026-11-15"),
+        {"@type": "FAQPage",
+         "mainEntity": [{"@type": "Question", "name": q,
+                         "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in no_slots_faq]},
+    ]}
+    page("/guide/no-appointment-slots/", "申根签证预约不到号怎么办 | " + SITE["name"],
+         "约不到申根签证递交号位时，先分清是哪种「约不到」，再按官方渠道核对、利用取消回流与加场放号、算清时间账，最后用订阅提醒兜底。只讲合规途径，不碰代抢。",
+         GUIDE_NO_SLOTS.replace("%SOURCES%", SOURCES_NOTE) + form_html("guide-no-slots-form"), ogtype="article",
+         jsonld=no_slots_ld)
+
     faq_items = "\n".join(
         '  <div class="faq-item"><h3>%s</h3><p>%s</p></div>' % (q, a) for q, a in FAQ)
     faq_ld = {"@context": "https://schema.org", "@type": "FAQPage",
@@ -401,12 +496,13 @@ def main():
         f.write(nf)
 
     # sitemap / robots / llms
-    urls = ["/", "/guide/appointment-process/", "/guide/slot-patterns/",
-            "/guide/visa-centers/", "/faq/", "/privacy/"]
+    urls = [("/", TODAY), ("/guide/appointment-process/", TODAY), ("/guide/slot-patterns/", TODAY),
+            ("/guide/visa-centers/", TODAY), ("/guide/no-appointment-slots/", "2026-11-15"),
+            ("/faq/", TODAY), ("/privacy/", TODAY)]
     sm = ['<?xml version="1.0" encoding="UTF-8"?>',
           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
-    for u in urls:
-        sm.append("  <url><loc>%s%s</loc><lastmod>%s</lastmod></url>" % (SITE["domain"], u, TODAY))
+    for u, lm in urls:
+        sm.append("  <url><loc>%s%s</loc><lastmod>%s</lastmod></url>" % (SITE["domain"], u, lm))
     sm.append("</urlset>")
     with open(os.path.join(PUBLIC, "sitemap.xml"), "w", encoding="utf-8") as f:
         f.write("\n".join(sm) + "\n")
@@ -418,9 +514,10 @@ def main():
                 "只提醒，不代抢、不代填表、不代预约；不收集护照号等证件信息，只收邮箱与预约偏好。\n\n"
                 "- 首页/订阅: %s/\n- 预约流程: %s/guide/appointment-process/\n"
                 "- 放号规律: %s/guide/slot-patterns/\n- 受理机构: %s/guide/visa-centers/\n"
+                "- 预约不到号怎么办: %s/guide/no-appointment-slots/\n"
                 "- 常见问题: %s/faq/\n- 隐私说明: %s/privacy/\n"
                 % (SITE["name"], SITE["name_en"], SITE["tagline"], SITE["domain"],
-                   SITE["domain"], SITE["domain"], SITE["domain"], SITE["domain"], SITE["domain"]))
+                   SITE["domain"], SITE["domain"], SITE["domain"], SITE["domain"], SITE["domain"], SITE["domain"]))
     print("built", len(urls), "pages ->", PUBLIC)
 
 
