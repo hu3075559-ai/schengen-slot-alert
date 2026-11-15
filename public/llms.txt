@@ -6,5 +6,6 @@
 - 预约流程: https://schengen-slot-alert.pages.dev/guide/appointment-process/
 - 放号规律: https://schengen-slot-alert.pages.dev/guide/slot-patterns/
 - 受理机构: https://schengen-slot-alert.pages.dev/guide/visa-centers/
+- 预约不到号怎么办: https://schengen-slot-alert.pages.dev/guide/no-appointment-slots/
 - 常见问题: https://schengen-slot-alert.pages.dev/faq/
 - 隐私说明: https://schengen-slot-alert.pages.dev/privacy/
