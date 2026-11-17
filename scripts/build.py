@@ -207,6 +207,7 @@ HOME_BODY = """
     <li><a href="/guide/slot-patterns/">放号规律与刷号常识</a>：没有内部时刻表，只有这些真实规律。</li>
     <li><a href="/guide/visa-centers/">各国在华受理机构与领区常识</a>：你该去 VFS、TLScontact 还是 BLS？</li>
     <li><a href="/guide/no-appointment-slots/">申根签证预约不到号怎么办</a>：先分清是哪种「约不到」，再按五步走。</li>
+    <li><a href="/guide/slot-release-time/">申根签证放号时间有规律吗</a>：没有统一时刻表，规律在号源的来源，不在钟点。</li>
   </ul>
 </section>
 """
@@ -392,6 +393,65 @@ GUIDE_NO_SLOTS = """
 </article>
 """
 
+GUIDE_RELEASE_TIME = """
+<article>
+<h1>申根签证放号时间有规律吗</h1>
+<p class="lead">先说结论：没有统一的放号时刻表。VFS Global、TLScontact、BLS 等受理机构从未公开发布「每天几点放号」的固定时间，各国、各城市、各签证类别的开放节奏也不一样。真正有规律的不是钟点，而是号源的来源——新周期开放、旺季临时加场、他人取消回流，这三类号出现的时机是可以预判的。凡是声称「某点必放号」「内部时刻表」的说法，都不可靠，更不要为此向任何人付费。</p>
+
+<h2>一、为什么没有统一的放号时间</h2>
+<ul>
+  <li><strong>受理机构不止一家</strong>：法国、荷兰走 TLScontact，西班牙走 BLS International，德国、意大利、瑞士等多数国家走 VFS Global，希腊走 GVCW，少数类别由使领馆直接受理（对照见<a href="/guide/visa-centers/">受理机构对照页</a>）。每家系统独立运行，不存在全申根统一的放号钟点。</li>
+  <li><strong>同一机构各城市也不同</strong>：号源由各签证中心按本地受理能力与领区需求开放，北京、上海等大领区的紧张程度与小领区完全不同，开放节奏自然也不同。</li>
+  <li><strong>官方从未公布时刻表</strong>：各使领馆与签证中心的公开说明只讲预约流程与递交窗口（最早提前 6 个月、最晚出行前 15 天），没有任何一家公布过每日放号的具体时点。网上流传的「凌晨放号」「整点放号」多为个人经验或中介话术，换个国家、换个城市就不成立。</li>
+</ul>
+
+<h2>二、真正的规律：号从哪来，什么时候来</h2>
+<ul>
+  <li><strong>新周期开放时批量出现</strong>：部分国家的系统按周期开放新的可预约日期，开放当日号相对充足，之后几天内被订完。规律是「盯新日期的开放」，不是「盯某个钟点」。</li>
+  <li><strong>旺季加场时成批放号</strong>：寒暑假、国庆、春节前需求集中时，签证中心增加受理场次或人力，会一次性放出一批新时段。这类放号没有预告，出现时间取决于中心的排班决定。</li>
+  <li><strong>取消与改期随时回流</strong>：他人取消或改期的时段会重新回到系统，零星、随机地出现，临近日期偶尔能刷到「捡漏」位。所谓「深夜刷到号」，多半刷到的就是这类回流位——是运气，不是时刻表。</li>
+  <li><strong>部分系统有官方候补机制</strong>：少数国家或地区的预约系统设有官方等候名单，有空位时按登记顺序通知。当地有候补机制时，登记候补比反复刷新更省力，也更可靠。</li>
+</ul>
+
+<h2>三、按这个节奏刷号，比守钟点有用</h2>
+<ol>
+  <li>行程一确定就启动：官方允许提前 6 个月递交，越早进入系统，能碰到的新周期开放与加场就越多。</li>
+  <li>先把前置步骤走完：多数国家要求先完成在线申请（如法国先在 France-Visas 填表）才能预约；账号提前注册好、信息提前填好，放号时才抢得过别人。完整步骤见<a href="/guide/appointment-process/">预约递交全流程</a>。</li>
+  <li>材料与约号并行准备，不要等材料全齐才开始刷号。</li>
+  <li>以天为单位持续关注，而不是守着某个整点反复刷新：新周期与加场都是以「批」出现的，持续在场比卡点更重要。</li>
+  <li>自己刷加订阅提醒兜底：本站对你订阅的「国家＋城市」组合每个工作日人工＋半自动核查一次，发现新的可预约时段当天发邮件提醒。这不是 24 小时实时监控，也不能保证一定约得上；周末与节假日放出的号，可能在下一个工作日才被核查到。</li>
+</ol>
+
+<h2>四、这些「放号规律」不要信</h2>
+<ul>
+  <li><strong>「每天凌晨/整点必放号」</strong>：没有任何官方依据。不同机构、不同城市的系统各自运行，不存在统一钟点。</li>
+  <li><strong>收费的「内部放号时间」</strong>：签证中心与使领馆多次提示，预约只通过官方系统进行，除签证费与服务费外不应向第三方付「抢号费」；卖「内部时刻」的和卖「代抢包中」的，是同一类生意。</li>
+  <li><strong>用脚本或机器人高频刷号</strong>：可能触发系统风控导致账号受限，反而耽误正事。</li>
+</ul>
+
+<section class="card">
+<h2>关键数字（官方口径）</h2>
+<ul class="data">
+  <li>递交窗口：出行前 6 个月 ～ 15 天之间。</li>
+  <li>审理时间：通常 15 个自然日，个别情况可延长至 45 天。</li>
+  <li>签证费：成人 90 欧元 / 6–12 岁 45 欧元 / 6 岁以下免费（2024-06-11 起）。</li>
+  <li>本站核查频率：每个工作日人工＋半自动核查一次，不是 24 小时实时监控。</li>
+</ul>
+<p class="fine">%SOURCES%</p>
+</section>
+
+<section class="card">
+<h2>常见问题</h2>
+<div class="faq-item"><h3>申根签证放号时间有规律吗？</h3><p>没有统一的时刻表。VFS Global、TLScontact、BLS 等机构从未公布每日固定放号时间，各国各城市节奏不同。有规律的是号源来源：新周期开放、旺季加场会批量放号，他人取消会零星回流——盯这三类时机，比守某个钟点有用。</p></div>
+<div class="faq-item"><h3>每天几点刷号最容易刷到？</h3><p>没有官方认可的「最佳时点」。取消回流位全天都可能随机出现，加场与新周期开放也没有预告。与其守整点，不如提前把账号与在线申请准备好，以天为单位持续关注，并用订阅提醒兜底。</p></div>
+<div class="faq-item"><h3>有人说凌晨刷到了号，是不是凌晨真的会放号？</h3><p>凌晨刷到的多半是他人取消或改期回流的零星时段，这类号全天随机出现，只是深夜刷的人少、竞争小，才显得「凌晨有号」。它不是批量放号的时刻表，换一天、换一个城市就未必成立。</p></div>
+<div class="faq-item"><h3>你们的放号提醒是自动实时监控吗？</h3><p>不是。本站目前没有自动实时监控：核查在每个工作日以人工＋半自动方式进行一次，发现新的可预约时段当天发邮件提醒。提醒只能帮你尽早知道，不能保证一定约得上；付费版（更高核查频率）正在筹备中，尚未上线。</p></div>
+</section>
+<p><a href="/guide/no-appointment-slots/">→ 约不到号时按这五步走</a> · <a href="/#subscribe">→ 回到首页订阅放号提醒</a></p>
+</article>
+"""
+
+
 PRIVACY_BODY = """
 <article>
 <h1>隐私说明</h1>
@@ -472,6 +532,29 @@ def main():
          GUIDE_NO_SLOTS.replace("%SOURCES%", SOURCES_NOTE) + form_html("guide-no-slots-form"), ogtype="article",
          jsonld=no_slots_ld)
 
+    release_faq = [
+        ("申根签证放号时间有规律吗？",
+         "没有统一的时刻表。VFS Global、TLScontact、BLS 等机构从未公布每日固定放号时间，各国各城市节奏不同。有规律的是号源来源：新周期开放、旺季加场会批量放号，他人取消会零星回流——盯这三类时机，比守某个钟点有用。"),
+        ("每天几点刷号最容易刷到？",
+         "没有官方认可的「最佳时点」。取消回流位全天都可能随机出现，加场与新周期开放也没有预告。与其守整点，不如提前把账号与在线申请准备好，以天为单位持续关注，并用订阅提醒兜底。"),
+        ("有人说凌晨刷到了号，是不是凌晨真的会放号？",
+         "凌晨刷到的多半是他人取消或改期回流的零星时段，这类号全天随机出现，只是深夜刷的人少、竞争小，才显得「凌晨有号」。它不是批量放号的时刻表，换一天、换一个城市就未必成立。"),
+        ("你们的放号提醒是自动实时监控吗？",
+         "不是。本站目前没有自动实时监控：核查在每个工作日以人工＋半自动方式进行一次，发现新的可预约时段当天发邮件提醒。提醒只能帮你尽早知道，不能保证一定约得上；付费版（更高核查频率）正在筹备中，尚未上线。"),
+    ]
+    release_ld = {"@context": "https://schema.org", "@graph": [
+        article_ld("申根签证放号时间有规律吗",
+                   "没有统一的放号时刻表：VFS、TLScontact、BLS 从未公布每日固定放号时间。有规律的是号源来源——新周期开放、旺季加场批量放号、取消改期零星回流。",
+                   "/guide/slot-release-time/", date="2026-11-17"),
+        {"@type": "FAQPage",
+         "mainEntity": [{"@type": "Question", "name": q,
+                         "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in release_faq]},
+    ]}
+    page("/guide/slot-release-time/", "申根签证放号时间有规律吗 | " + SITE["name"],
+         "申根签证没有统一的放号时刻表，VFS、TLScontact、BLS 均未公布每日固定放号时间。有规律的是号源来源：新周期开放、旺季加场批量放号、取消改期零星回流。",
+         GUIDE_RELEASE_TIME.replace("%SOURCES%", SOURCES_NOTE) + form_html("guide-release-time-form"), ogtype="article",
+         jsonld=release_ld)
+
     faq_items = "\n".join(
         '  <div class="faq-item"><h3>%s</h3><p>%s</p></div>' % (q, a) for q, a in FAQ)
     faq_ld = {"@context": "https://schema.org", "@type": "FAQPage",
@@ -498,6 +581,7 @@ def main():
     # sitemap / robots / llms
     urls = [("/", TODAY), ("/guide/appointment-process/", TODAY), ("/guide/slot-patterns/", TODAY),
             ("/guide/visa-centers/", TODAY), ("/guide/no-appointment-slots/", "2026-11-15"),
+            ("/guide/slot-release-time/", "2026-11-17"),
             ("/faq/", TODAY), ("/privacy/", TODAY)]
     sm = ['<?xml version="1.0" encoding="UTF-8"?>',
           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
@@ -515,9 +599,10 @@ def main():
                 "- 首页/订阅: %s/\n- 预约流程: %s/guide/appointment-process/\n"
                 "- 放号规律: %s/guide/slot-patterns/\n- 受理机构: %s/guide/visa-centers/\n"
                 "- 预约不到号怎么办: %s/guide/no-appointment-slots/\n"
+                "- 放号时间有规律吗: %s/guide/slot-release-time/\n"
                 "- 常见问题: %s/faq/\n- 隐私说明: %s/privacy/\n"
                 % (SITE["name"], SITE["name_en"], SITE["tagline"], SITE["domain"],
-                   SITE["domain"], SITE["domain"], SITE["domain"], SITE["domain"], SITE["domain"], SITE["domain"]))
+                   SITE["domain"], SITE["domain"], SITE["domain"], SITE["domain"], SITE["domain"], SITE["domain"], SITE["domain"]))
     print("built", len(urls), "pages ->", PUBLIC)
 
 
