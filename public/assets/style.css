@@ -8,13 +8,13 @@ body{margin:0;font-family:-apple-system,"PingFang SC","Microsoft YaHei","Noto Sa
   color:var(--ink);background:var(--bg);line-height:1.75;font-size:16px}
 a{color:var(--brand)} a:hover{color:var(--brand-dark)}
 .site-header{display:flex;justify-content:space-between;align-items:center;gap:16px;
-  max-width:880px;margin:0 auto;padding:18px 20px 6px;flex-wrap:wrap}
+  max-width:1120px;margin:0 auto;padding:18px 20px 6px;flex-wrap:wrap}
 .brand{font-weight:700;font-size:20px;color:var(--ink);text-decoration:none}
 .site-header nav{display:flex;gap:16px;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none}
 .site-header nav::-webkit-scrollbar{display:none}
 .site-header nav a{color:var(--muted);text-decoration:none;font-size:15px}
 .site-header nav a:hover{color:var(--brand)}
-main{max-width:880px;margin:0 auto;padding:10px 20px 30px}
+main{max-width:1120px;margin:0 auto;padding:10px 20px 30px}
 .hero{padding:26px 0 6px}
 .hero h1{font-size:30px;line-height:1.35;margin:0 0 12px}
 .lead{font-size:17px;color:var(--muted)}
@@ -44,7 +44,7 @@ article h2{font-size:20px;margin-top:28px}
 .hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
 .faq-item{border-bottom:1px solid var(--line);padding:6px 0}
 .faq-item h3{margin:12px 0 4px;font-size:17px}
-.site-footer{max-width:880px;margin:24px auto 0;padding:18px 20px 34px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+.site-footer{max-width:1120px;margin:24px auto 0;padding:18px 20px 34px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
 @media (max-width:640px){
   .subscribe-form .grid{grid-template-columns:1fr}
   .hero h1{font-size:25px}
