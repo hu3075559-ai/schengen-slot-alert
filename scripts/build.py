@@ -63,8 +63,9 @@ FOOT = """
 </main>
 <footer class="site-footer">
   <p>%SITENAME% · %TAGLINE%。只做放号信息提醒，不代抢、不代填表、不代预约，不收集任何证件信息。</p>
-  <p><a href="/privacy/">隐私说明</a> · <a href="/faq/">常见问题</a></p>
-  <p>更多出行工具：<a href="https://chinatransitvisa.pages.dev/">外国人来华工具（240 小时过境免签校验 · 离境退税计算）</a> · <a href="https://gxccz.com/">gxccz 工具导航</a></p>
+  <p><a href="/privacy/">隐私说明</a> · <a href="/faq/">常见问题</a> · <a href="https://gxccz.com/">gxccz 工具导航</a></p>
+  <p>友情链接：<a href="https://en.gxccz.com/visitor-tools/">来华签证工具</a></p>
+  <p>© 2026 gxccz.com · 站长QQ：65363885 · 联系邮箱 <a href="mailto:kefu@gxccz.com">kefu@gxccz.com</a> · <a href="https://gxccz.com/privacy/">隐私与条款</a></p>
 </footer>
 <script src="/assets/config.js"></script>
 <script src="/assets/subscribe.js"></script>
@@ -208,6 +209,7 @@ HOME_BODY = """
     <li><a href="/guide/visa-centers/">各国在华受理机构与领区常识</a>：你该去 VFS、TLScontact 还是 BLS？</li>
     <li><a href="/guide/no-appointment-slots/">申根签证预约不到号怎么办</a>：先分清是哪种「约不到」，再按五步走。</li>
     <li><a href="/guide/slot-release-time/">申根签证放号时间有规律吗</a>：没有统一时刻表，规律在号源的来源，不在钟点。</li>
+    <li><a href="/guide/france-tlscontact-how-to-book/">法国申根签证预约 TLScontact 怎么约</a>：先填 France-Visas 表，再到 TLScontact 按领区约号。</li>
   </ul>
 </section>
 """
@@ -466,6 +468,41 @@ PRIVACY_BODY = """
 </article>
 """
 
+GUIDE_FR_TLS = """
+<article>
+<h1>法国申根签证预约 TLScontact 怎么约</h1>
+<p class="lead">先说结论：法国在华签证递交走 TLScontact，预约分两步——先在法国官方 France-Visas 网站填好在线申请表，再到 TLScontact 官网注册账号、按领区选城市、选可预约时段。顺序不能反：没填表就约不上号。</p>
+
+<h2>第一步：先在 France-Visas 填表</h2>
+<p>打开法国官方签证网站 France-Visas（france-visas.gouv.fr），按向导完成在线申请表，系统会给出申请编号与应递交的签证中心。填表时按护照与行程如实填写，提交后打印申请表与回执，递交当天要带上。注意：France-Visas 是填表的地方，不是约号的地方；约号在第二步的 TLScontact 系统里完成。</p>
+
+<h2>第二步：在 TLScontact 注册账号</h2>
+<p>到 TLScontact 法国签证官网（visas-fr.tlscontact.com）注册账号，用注册邮箱登录。注册信息与申请人信息要一致，预约名额与申请人绑定、不可转让。账号提前注册好、信息提前填好，放号时才抢得过别人。</p>
+
+<h2>第三步：按领区选城市，再选时段</h2>
+<p>法国在华按领区受理，原则上按常住地所属领区选择递交城市，跨领区递交可能被拒收。选好城市后，系统显示当前开放的可预约日期与时段，选一个、确认预约，保存好预约确认信。热门领区在旺季经常提前数周约满，建议行程一确定就启动预约，号和材料可以并行准备。</p>
+
+<h2>第四步：按预约时间到中心递交</h2>
+<p>按预约时间提前约 15 分钟到达签证中心，递交材料、缴纳签证费与签证中心服务费、采集指纹。首次申请申根签证必须本人到场录指纹；59 个月内录过指纹的申请人，部分情形可免于再次采集（以法国官方规定为准）。</p>
+
+<h2>第五步：等待审理与领取护照</h2>
+<p>通常 15 个自然日出结果，个别情况可延长至 45 天。可选择自取或快递返还。最晚递交时间是出行前 15 天，但那是没有给任何意外留余量的底线，不要按底线规划。</p>
+
+<section class="card">
+<h2>关键数字（官方口径）</h2>
+<ul class="data">
+  <li>签证费：成人 90 欧元 / 6–12 岁 45 欧元 / 6 岁以下免费（2024-06-11 起，另付签证中心服务费，金额以 TLScontact 当期页面为准）。</li>
+  <li>递交窗口：出行前 6 个月 ～ 15 天之间。</li>
+  <li>审理：通常 15 天，最长可至 45 天。</li>
+  <li>旅行医疗保险保额：不低于 3 万欧元。</li>
+</ul>
+<p class="fine">%SOURCES%</p>
+</section>
+<p><a href="/guide/appointment-process/">→ 先看预约递交全流程</a> · <a href="/guide/no-appointment-slots/">→ 约不到号时按这五步走</a> · <a href="/#subscribe">→ 回到首页订阅放号提醒</a></p>
+</article>
+"""
+
+
 
 def article_ld(title, desc, path, date=None):
     d = date or TODAY
@@ -555,6 +592,29 @@ def main():
          GUIDE_RELEASE_TIME.replace("%SOURCES%", SOURCES_NOTE) + form_html("guide-release-time-form"), ogtype="article",
          jsonld=release_ld)
 
+    fr_tls_faq = [
+        ("法国签证是先填表还是先约号？",
+         "先填表。先在法国官方 France-Visas 网站完成在线申请、拿到申请编号，再到 TLScontact 官网注册账号、按领区选城市约号。顺序不能反，没填表就约不上号。"),
+        ("一定要在常住地所属领区的城市递交吗？",
+         "原则上是。法国在华按领区受理，跨领区递交可能被拒收。不要只看「哪里有号」就换城市，换之前先核对领区划分。"),
+        ("TLScontact 收服务费吗？",
+         "收。签证费（成人 90 欧元）之外，另付签证中心服务费，金额以 TLScontact 官网当期页面为准。预约通过官网办理，不要向第三方付「抢号费」。"),
+        ("你们的放号提醒是自动实时监控吗？",
+         "不是。本站目前没有自动实时监控：核查在每个工作日以人工＋半自动方式进行一次，发现新的可预约时段当天发邮件提醒。提醒只能帮你尽早知道，不能保证一定约得上。"),
+    ]
+    fr_tls_ld = {"@context": "https://schema.org", "@graph": [
+        article_ld("法国申根签证预约 TLScontact 怎么约",
+                   "法国在华走 TLScontact：先在 France-Visas 填表，再到 TLScontact 注册、按领区选城市约号，五步讲清全流程与官方时间口径。",
+                   "/guide/france-tlscontact-how-to-book/", date="2026-11-19"),
+        {"@type": "FAQPage",
+         "mainEntity": [{"@type": "Question", "name": q,
+                         "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in fr_tls_faq]},
+    ]}
+    page("/guide/france-tlscontact-how-to-book/", "法国申根签证预约 TLScontact 怎么约 | " + SITE["name"],
+         "法国申根签证在华走 TLScontact：先在 France-Visas 填表，再到 TLScontact 注册账号、按领区选城市约号，五步讲清全流程与官方时间口径。",
+         GUIDE_FR_TLS.replace("%SOURCES%", SOURCES_NOTE) + form_html("guide-fr-tls-form"), ogtype="article",
+         jsonld=fr_tls_ld)
+
     faq_items = "\n".join(
         '  <div class="faq-item"><h3>%s</h3><p>%s</p></div>' % (q, a) for q, a in FAQ)
     faq_ld = {"@context": "https://schema.org", "@type": "FAQPage",
@@ -582,6 +642,7 @@ def main():
     urls = [("/", TODAY), ("/guide/appointment-process/", TODAY), ("/guide/slot-patterns/", TODAY),
             ("/guide/visa-centers/", TODAY), ("/guide/no-appointment-slots/", "2026-11-15"),
             ("/guide/slot-release-time/", "2026-11-17"),
+            ("/guide/france-tlscontact-how-to-book/", "2026-11-19"),
             ("/faq/", TODAY), ("/privacy/", TODAY)]
     sm = ['<?xml version="1.0" encoding="UTF-8"?>',
           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
@@ -600,9 +661,10 @@ def main():
                 "- 放号规律: %s/guide/slot-patterns/\n- 受理机构: %s/guide/visa-centers/\n"
                 "- 预约不到号怎么办: %s/guide/no-appointment-slots/\n"
                 "- 放号时间有规律吗: %s/guide/slot-release-time/\n"
+                "- 法国 TLScontact 怎么约: %s/guide/france-tlscontact-how-to-book/\n"
                 "- 常见问题: %s/faq/\n- 隐私说明: %s/privacy/\n"
                 % (SITE["name"], SITE["name_en"], SITE["tagline"], SITE["domain"],
-                   SITE["domain"], SITE["domain"], SITE["domain"], SITE["domain"], SITE["domain"], SITE["domain"], SITE["domain"]))
+                   SITE["domain"], SITE["domain"], SITE["domain"], SITE["domain"], SITE["domain"], SITE["domain"], SITE["domain"], SITE["domain"]))
     print("built", len(urls), "pages ->", PUBLIC)
 
 

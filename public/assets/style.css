@@ -1,6 +1,6 @@
 :root{
-  --ink:#1c2733; --muted:#5a6a78; --brand:#0f5fa8; --brand-dark:#0b4a85;
-  --bg:#f5f8fb; --card:#ffffff; --line:#dbe5ee; --warn:#fff7e8; --warn-line:#ecc987;
+  --ink:#e8ecf4; --muted:#9aa5bd; --brand:#f0b429; --brand-dark:#ffd166;
+  --bg:#0d1016; --card:#161b26; --line:#2a3245; --warn:rgba(240,180,41,.10); --warn-line:#39415a;
   --radius:14px;
 }
 *{box-sizing:border-box}
@@ -30,29 +30,29 @@ article h2{font-size:20px;margin-top:28px}
 .fine{color:var(--muted);font-size:13px}
 .tbl{width:100%;border-collapse:collapse;font-size:15px}
 .tbl th,.tbl td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
-.tbl th{background:#eef4fa}
+.tbl th{background:#1b2130}
 .subscribe-form .grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
 .subscribe-form label{display:block;font-size:14px;color:var(--muted);margin:10px 0}
 .subscribe-form select,.subscribe-form input[type="email"],.subscribe-form input[type="month"]{
-  width:100%;padding:10px;border:1px solid var(--line);border-radius:8px;font-size:16px;color:var(--ink);background:#fff}
+  width:100%;padding:10px;border:1px solid var(--line);border-radius:8px;font-size:16px;color:var(--ink);background:#1b2130}
 .subscribe-form label.check{display:flex;gap:8px;align-items:flex-start;color:var(--ink);font-size:15px}
 .subscribe-form label.check input{margin-top:6px}
-.subscribe-form button{background:var(--brand);color:#fff;border:0;border-radius:8px;
+.subscribe-form button{background:var(--brand);color:#141414;border:0;border-radius:8px;
   padding:12px 26px;font-size:16px;cursor:pointer;margin-top:8px}
 .subscribe-form button:hover{background:var(--brand-dark)}
 .form-status{min-height:1.5em;color:var(--brand-dark);font-size:15px}
 .hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
 .faq-item{border-bottom:1px solid var(--line);padding:6px 0}
 .faq-item h3{margin:12px 0 4px;font-size:17px}
-.site-footer{max-width:880px;margin:0 auto;padding:10px 20px 34px;color:var(--muted);font-size:14px}
+.site-footer{max-width:880px;margin:24px auto 0;padding:18px 20px 34px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
 @media (max-width:640px){
   .subscribe-form .grid{grid-template-columns:1fr}
   .hero h1{font-size:25px}
 }
 
-.mail-mock{border:1px solid var(--line);border-radius:12px;background:#f8fafc;padding:16px 18px;margin-top:10px}
+.mail-mock{border:1px solid var(--line);border-radius:12px;background:#161b26;padding:16px 18px;margin-top:10px}
 .mail-mock .m-meta{margin:0 0 6px;color:var(--muted);font-size:14.5px}
 .mail-mock hr{border:none;border-top:1px solid var(--line);margin:12px 0}
 .mail-mock p{margin:0 0 10px}
-.mail-mock .m-cta{display:inline-block;background:var(--brand);color:#fff;border-radius:8px;padding:8px 14px;font-weight:700}
+.mail-mock .m-cta{display:inline-block;background:var(--brand);color:#141414;border-radius:8px;padding:8px 14px;font-weight:700}
 .mail-mock .m-foot{color:var(--muted);font-size:13.5px;margin-bottom:0}
