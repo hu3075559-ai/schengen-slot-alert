@@ -210,6 +210,7 @@ HOME_BODY = """
     <li><a href="/guide/no-appointment-slots/">申根签证预约不到号怎么办</a>：先分清是哪种「约不到」，再按五步走。</li>
     <li><a href="/guide/slot-release-time/">申根签证放号时间有规律吗</a>：没有统一时刻表，规律在号源的来源，不在钟点。</li>
     <li><a href="/guide/france-tlscontact-how-to-book/">法国申根签证预约 TLScontact 怎么约</a>：先填 France-Visas 表，再到 TLScontact 按领区约号。</li>
+    <li><a href="/guide/italy-vfs-how-to-book/">意大利申根签证 VFS 预约流程</a>：C 类走 VFS 意大利签证中心预约，D 类走使领馆 Prenot@mi，别走错入口。</li>
   </ul>
 </section>
 """
@@ -502,6 +503,70 @@ GUIDE_FR_TLS = """
 </article>
 """
 
+GUIDE_IT_VFS = """
+<article>
+<h1>意大利申根签证 VFS 预约流程</h1>
+<p class="lead">先说结论：意大利在华 C 类申根签证（最长 90 天）走 VFS Global 运营的意大利签证申请中心（IVAC），预约入口只有一个官方地址：visa.vfsglobal.com/chn/en/ita。流程是「先确认领区 → 在 VFS 官网注册账号、选中心、选时段 → 按预约时间到中心递交并录指纹」。D 类国家签证（91–365 天）不走 VFS，须通过使领馆的 Prenot@mi 系统预约、直接到使领馆递交，别走错入口。</p>
+
+<h2>第一步：先确认你的领区，再选中心</h2>
+<p>意大利在华按领区受理，原则上按常住地所属领区选择递交城市，跨领区递交可能被拒收。意大利在中国共设 15 个签证中心，分属四个使领馆领区：</p>
+<ul>
+  <li><strong>北京大使馆领区</strong>：签证中心在北京、济南、沈阳、武汉、西安；领区覆盖北京、天津、黑龙江、吉林、辽宁、内蒙古、河北、山东、河南、湖北、西藏、新疆、青海、甘肃、宁夏、陕西、山西。</li>
+  <li><strong>重庆总领馆领区</strong>：签证中心在重庆、成都、昆明。</li>
+  <li><strong>上海、广州总领馆领区</strong>：签证中心分布在上海、南京、杭州、福州、深圳、广州、长沙等城市，具体归属以各总领馆当期公告为准，约号前先在对应总领馆页面核对。</li>
+  <li><strong>香港、澳门居民</strong>：向意大利驻香港总领馆提交申请，不走内地签证中心。</li>
+</ul>
+<p>不要只看「哪里有号」就换城市：换城市之前先核对领区划分。各国领区划分不完全一致，意大利的领区也不能套用法国、德国的划分。领区对照见<a href="/guide/visa-centers/">受理机构对照页</a>。</p>
+
+<h2>第二步：在 VFS 官网注册账号并预约</h2>
+<ol>
+  <li>打开 VFS Global 意大利签证页面（visa.vfsglobal.com/chn/en/ita），按提示注册账号，用能正常收信的邮箱与手机号注册，预约确认与提醒都走这些渠道。</li>
+  <li>选择签证类别（旅游、商务、探亲等）与递交城市——类别与城市选错可能一直显示无号，务必按真实出行目的选择。</li>
+  <li>在日历中选择可预约的日期与时段，确认预约并保存好预约确认信。热门领区在旺季（寒暑假、国庆、春节前）经常提前数周约满，建议行程一确定就启动预约，号和材料可以并行准备。</li>
+  <li>签证费之外另付签证中心服务费，金额以 VFS 官网当期页面为准；预约通过官网办理，不要向任何第三方付「抢号费」。</li>
+</ol>
+<p>约不到号时先别慌：意大利签证中心没有公开发布的固定放号时间表，所谓「几点必放号」「内部放号时刻」都不可靠。新号源来自三类真实渠道——他人取消或改期回流、旺季临时加场批量放号、新周期开放放号。应对办法见<a href="/guide/no-appointment-slots/">约不到号怎么办</a>与<a href="/guide/slot-release-time/">放号时间有规律吗</a>。</p>
+
+<h2>第三步：按清单准备材料</h2>
+<p>常规材料包括护照、照片、行程单、机票酒店预订单、旅行医疗保险、在职或资金证明等，但具体清单以 VFS 意大利页面当期公布的清单为准，不要照搬网上旧清单。材料与约号并行准备：不要等材料全齐了才想起来约号。ADS 旅游团（经批准的目的地国家旅游团）走授权的中国旅行社统一申请，生物识别数据采集时间由旅行社向使领馆预约，散客不要按团签流程走。</p>
+
+<h2>第四步：按预约时间到中心递交并录指纹</h2>
+<p>按预约时间提前约 15 分钟到达签证中心，递交材料、缴纳签证费与服务费、采集指纹。个人签证材料递交时间为周一至周五 9:00–17:00（以各中心当期公告为准，重庆、成都、昆明等中心的具体受理时段略有不同）。首次申请申根签证必须本人到场录指纹；59 个月内录过指纹的申请人，部分情形可免于再次采集（以意大利官方规定为准）。</p>
+
+<h2>第五步：等待审理与领取护照</h2>
+<p>通常 15 个自然日出结果，个别情况可延长至 45 天。可选择到中心自取，或自费使用顺丰寄送服务。最晚递交时间是出行前 15 天，但那是没有给任何意外留余量的底线，不要按底线规划；经验口径是出行前 45–60 天启动申请。</p>
+
+<h2>约不到号时的兜底办法</h2>
+<ul>
+  <li><strong>自己刷</strong>：有空时直接刷 VFS 官方预约系统，重点关注取消回流位与新周期开放日。</li>
+  <li><strong>订阅提醒兜底</strong>：在本站订阅你所选的「意大利＋城市」组合，我们每个工作日人工＋半自动核查一次，发现新的可预约时段当天发邮件提醒，你再去 VFS 官网自行预约。提醒只能帮你尽早知道，不能保证一定约得上；本站也不是 24 小时实时监控，周末与节假日放出的号可能在下一个工作日才被核查到。</li>
+  <li><strong>不要找代抢</strong>：预约名额与申请人信息绑定、不可转让；买来的号可能因信息不一致被签证中心拒收，还附带个人信息泄露风险。</li>
+</ul>
+
+<section class="card">
+<h2>关键数字（官方口径）</h2>
+<ul class="data">
+  <li>签证费：成人 90 欧元 / 6–12 岁 45 欧元 / 6 岁以下免费（2024-06-11 起，另付签证中心服务费，金额以 VFS 当期页面为准）。</li>
+  <li>意大利在华签证中心：共 15 个，C 类签证全部经签证中心受理、须提前预约。</li>
+  <li>个人递交时间：周一至周五 9:00–17:00（各中心略有不同，以当期公告为准）。</li>
+  <li>递交窗口：出行前 6 个月 ～ 15 天之间。</li>
+  <li>审理：通常 15 天，最长可至 45 天。</li>
+  <li>旅行医疗保险保额：不低于 3 万欧元。</li>
+</ul>
+<p class="fine">本页事实来源：意大利驻华大使馆与意大利驻重庆总领馆官网「在中国哪里申请签证」页面、VFS Global 意大利签证页面（核查日期：2026-11-21）。各国受理安排可能调整，递交前请以目的国使领馆与签证中心官网当期公告为准。%SOURCES%</p>
+</section>
+
+<section class="card">
+<h2>常见问题</h2>
+<div class="faq-item"><h3>意大利签证是在使领馆约还是在 VFS 约？</h3><p>C 类申根签证（最长 90 天）在 VFS Global 的意大利签证中心约，入口是 visa.vfsglobal.com/chn/en/ita，须提前预约。D 类国家签证（91–365 天）不走 VFS，须通过使领馆的 Prenot@mi 系统预约、直接到使领馆递交。</p></div>
+<div class="faq-item"><h3>意大利在华有多少个签证中心？我在哪个城市递交？</h3><p>意大利在中国共设 15 个签证中心，按常住地所属领区选择：北京领区为北京、济南、沈阳、武汉、西安；重庆领区为重庆、成都、昆明；上海、广州领区覆盖上海、南京、杭州、福州、深圳、广州、长沙等城市，具体归属以各总领馆当期公告为准。跨领区递交可能被拒收。</p></div>
+<div class="faq-item"><h3>VFS 预约显示没有号怎么办？</h3><p>先核对类别与城市是否选对，再持续关注官方系统：取消回流、旺季加场与新周期开放都会产生新时段。不要找代抢或付「抢号费」，也不要轻信所谓固定放号时刻表。也可以订阅本站提醒兜底：每个工作日核查一次，有新时段当天邮件通知。</p></div>
+<div class="faq-item"><h3>你们的放号提醒是自动实时监控吗？</h3><p>不是。本站目前没有自动实时监控：核查在每个工作日以人工＋半自动方式进行一次，发现新的可预约时段当天发邮件提醒。提醒只能帮你尽早知道，不能保证一定约得上；付费版（更高核查频率）正在筹备中，尚未上线。</p></div>
+</section>
+<p><a href="/guide/appointment-process/">→ 先看预约递交全流程</a> · <a href="/guide/no-appointment-slots/">→ 约不到号时按这五步走</a> · <a href="/#subscribe">→ 回到首页订阅放号提醒</a></p>
+</article>
+"""
+
 
 
 def article_ld(title, desc, path, date=None):
@@ -615,6 +680,29 @@ def main():
          GUIDE_FR_TLS.replace("%SOURCES%", SOURCES_NOTE) + form_html("guide-fr-tls-form"), ogtype="article",
          jsonld=fr_tls_ld)
 
+    it_vfs_faq = [
+        ("意大利签证是在使领馆约还是在 VFS 约？",
+         "C 类申根签证（最长 90 天）在 VFS Global 的意大利签证中心约，入口是 visa.vfsglobal.com/chn/en/ita，须提前预约。D 类国家签证（91–365 天）不走 VFS，须通过使领馆的 Prenot@mi 系统预约、直接到使领馆递交。"),
+        ("意大利在华有多少个签证中心？我在哪个城市递交？",
+         "意大利在中国共设 15 个签证中心，按常住地所属领区选择：北京领区为北京、济南、沈阳、武汉、西安；重庆领区为重庆、成都、昆明；上海、广州领区覆盖上海、南京、杭州、福州、深圳、广州、长沙等城市，具体归属以各总领馆当期公告为准。跨领区递交可能被拒收。"),
+        ("VFS 预约显示没有号怎么办？",
+         "先核对类别与城市是否选对，再持续关注官方系统：取消回流、旺季加场与新周期开放都会产生新时段。不要找代抢或付「抢号费」，也不要轻信所谓固定放号时刻表。也可以订阅本站提醒兜底：每个工作日核查一次，有新时段当天邮件通知。"),
+        ("你们的放号提醒是自动实时监控吗？",
+         "不是。本站目前没有自动实时监控：核查在每个工作日以人工＋半自动方式进行一次，发现新的可预约时段当天发邮件提醒。提醒只能帮你尽早知道，不能保证一定约得上。"),
+    ]
+    it_vfs_ld = {"@context": "https://schema.org", "@graph": [
+        article_ld("意大利申根签证 VFS 预约流程",
+                   "意大利在华 C 类申根签证走 VFS Global 意大利签证中心预约，D 类走使领馆 Prenot@mi；先确认领区，再注册 VFS 账号约号，五步讲清全流程与官方时间口径。",
+                   "/guide/italy-vfs-how-to-book/", date="2026-11-21"),
+        {"@type": "FAQPage",
+         "mainEntity": [{"@type": "Question", "name": q,
+                         "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in it_vfs_faq]},
+    ]}
+    page("/guide/italy-vfs-how-to-book/", "意大利申根签证 VFS 预约流程 | " + SITE["name"],
+         "意大利申根签证在华走 VFS Global 意大利签证中心：先确认领区，再在 VFS 官网注册账号、选中心、选时段约号，五步讲清全流程与官方时间口径。",
+         GUIDE_IT_VFS.replace("%SOURCES%", SOURCES_NOTE) + form_html("guide-it-vfs-form"), ogtype="article",
+         jsonld=it_vfs_ld)
+
     faq_items = "\n".join(
         '  <div class="faq-item"><h3>%s</h3><p>%s</p></div>' % (q, a) for q, a in FAQ)
     faq_ld = {"@context": "https://schema.org", "@type": "FAQPage",
@@ -643,6 +731,7 @@ def main():
             ("/guide/visa-centers/", TODAY), ("/guide/no-appointment-slots/", "2026-11-15"),
             ("/guide/slot-release-time/", "2026-11-17"),
             ("/guide/france-tlscontact-how-to-book/", "2026-11-19"),
+            ("/guide/italy-vfs-how-to-book/", "2026-11-21"),
             ("/faq/", TODAY), ("/privacy/", TODAY)]
     sm = ['<?xml version="1.0" encoding="UTF-8"?>',
           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
@@ -662,9 +751,10 @@ def main():
                 "- 预约不到号怎么办: %s/guide/no-appointment-slots/\n"
                 "- 放号时间有规律吗: %s/guide/slot-release-time/\n"
                 "- 法国 TLScontact 怎么约: %s/guide/france-tlscontact-how-to-book/\n"
+                "- 意大利 VFS 怎么约: %s/guide/italy-vfs-how-to-book/\n"
                 "- 常见问题: %s/faq/\n- 隐私说明: %s/privacy/\n"
                 % (SITE["name"], SITE["name_en"], SITE["tagline"], SITE["domain"],
-                   SITE["domain"], SITE["domain"], SITE["domain"], SITE["domain"], SITE["domain"], SITE["domain"], SITE["domain"], SITE["domain"]))
+                   SITE["domain"], SITE["domain"], SITE["domain"], SITE["domain"], SITE["domain"], SITE["domain"], SITE["domain"], SITE["domain"], SITE["domain"]))
     print("built", len(urls), "pages ->", PUBLIC)
 
 
