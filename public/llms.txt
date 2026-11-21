@@ -9,5 +9,6 @@
 - 预约不到号怎么办: https://schengen-slot-alert.pages.dev/guide/no-appointment-slots/
 - 放号时间有规律吗: https://schengen-slot-alert.pages.dev/guide/slot-release-time/
 - 法国 TLScontact 怎么约: https://schengen-slot-alert.pages.dev/guide/france-tlscontact-how-to-book/
+- 意大利 VFS 怎么约: https://schengen-slot-alert.pages.dev/guide/italy-vfs-how-to-book/
 - 常见问题: https://schengen-slot-alert.pages.dev/faq/
 - 隐私说明: https://schengen-slot-alert.pages.dev/privacy/
