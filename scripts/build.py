@@ -211,6 +211,7 @@ HOME_BODY = """
     <li><a href="/guide/slot-release-time/">申根签证放号时间有规律吗</a>：没有统一时刻表，规律在号源的来源，不在钟点。</li>
     <li><a href="/guide/france-tlscontact-how-to-book/">法国申根签证预约 TLScontact 怎么约</a>：先填 France-Visas 表，再到 TLScontact 按领区约号。</li>
     <li><a href="/guide/italy-vfs-how-to-book/">意大利申根签证 VFS 预约流程</a>：C 类走 VFS 意大利签证中心预约，D 类走使领馆 Prenot@mi，别走错入口。</li>
+    <li><a href="/guide/schengen-lingqu-huafen/">申根签证领区怎么划分按什么选递交城市</a>：先定主访国、再按常住地找领区，同一领区内按方便与号源选城市。</li>
   </ul>
 </section>
 """
@@ -566,7 +567,80 @@ GUIDE_IT_VFS = """
 <p><a href="/guide/appointment-process/">→ 先看预约递交全流程</a> · <a href="/guide/no-appointment-slots/">→ 约不到号时按这五步走</a> · <a href="/#subscribe">→ 回到首页订阅放号提醒</a></p>
 </article>
 """
+GUIDE_LINGQU = """
+<article>
+<h1>申根签证领区怎么划分按什么选递交城市</h1>
+<p class="lead">先说结论：申根签证的递交城市不是按「哪里有号」挑的，而是两步定下来的——先按行程定主访国（停留时间最长的国家；各国停留天数相同、没有主访国时按最先入境的国家），再按你的常住地落在该国在华哪个领区。领区对了，同一领区内的签证中心城市才能选；领区错了，约到的号也可能被拒收，白白耽误审理时间。</p>
 
+<h2>第一步：先定主访国，再谈领区</h2>
+<p>领区是「某个申根国家在华的管辖分区」，所以第一步永远是先确定向哪个国家递交：</p>
+<ul>
+  <li><strong>只去一个申根国家</strong>：向该国递交。</li>
+  <li><strong>去多个国家</strong>：向停留时间最长的主访国递交；各国停留天数相同、没有主访国时，向最先入境的国家递交。</li>
+  <li><strong>主访国定了，领区才有意义</strong>：法国的领区划分不能套到意大利、德国头上，每个国家的领区是各自使领馆划的。</li>
+</ul>
+<p>这条规则出自欧盟《签证法典》（(EC) No 810/2009）：申请须向主要目的国（main destination）的使领馆递交；没有主要目的国时，向首次入境国递交。交错了国家，材料再全也可能被退回。</p>
+
+<h2>第二步：领区按常住地划分，不是按户籍或意愿</h2>
+<p>同一个申根国家在中国一般设大使馆（北京）加若干总领馆（上海、广州、成都、武汉、沈阳、重庆等），每个使领馆管一片省份，合起来覆盖全国。划分依据是你的<strong>常住地</strong>——也就是你长期工作、居住的地方，通常以居住证、在职证明、社保或近 6 个月居住证明等材料证明。护照签发地与常住地不一致时，一般按常住地（近 6 个月居住证明所在地）认定。</p>
+<ul>
+  <li><strong>法国</strong>：全国分北京、上海、广州、成都、武汉、沈阳 6 个领区，签证由 TLScontact 在 15 个城市的签证中心受理；France-Visas 官网中国页面列有各中心归属，约号前先核对。</li>
+  <li><strong>意大利</strong>：在华共设 15 个签证中心，分属北京大使馆、重庆总领馆、上海总领馆、广州总领馆四个领区：北京领区中心在北京、济南、沈阳、武汉、西安；重庆领区在重庆、成都、昆明；上海、广州领区覆盖上海、南京、杭州、福州、深圳、广州、长沙等城市，具体归属以各总领馆当期公告为准。</li>
+  <li><strong>德国、瑞士等多数国家</strong>：走 VFS Global，同样按常住地所属领区选择签证中心；德国 VFS 在华设有 15 个城市的签证中心。</li>
+  <li><strong>各国领区划分不完全一致</strong>：同一个省份，在法国属上海领区、在意大利可能属北京领区，逐国核对，不要凭经验跨国套用。</li>
+</ul>
+<p>怎么查自己的领区：去目的国使领馆官网或其签证中心官网（VFS Global / TLScontact / BLS 各国页面）的「领区/管辖范围」栏目，按省份查；拿不准时直接发邮件问对应使领馆，比在网上猜稳妥。领区对照总表见<a href="/guide/visa-centers/">受理机构对照页</a>。</p>
+
+<h2>第三步：同一领区内，按方便与号源选城市</h2>
+<p>领区确定之后，递交城市的选择就灵活多了：</p>
+<ul>
+  <li><strong>同一领区内的多个签证中心通常可以任选</strong>：比如北京领区的申请人可以在北京、济南、沈阳、武汉、西安等中心里选离自己最近或号源较多的一个，具体以各国当期规定为准。</li>
+  <li><strong>优先选离常住地近的城市</strong>：递交当天要本人到场录指纹，跨城递交多一趟行程，也多一分材料出问题的往返成本。</li>
+  <li><strong>号源紧张程度因城市而异</strong>：同一国家不同城市的号源差别很大，领区内的城市之间可以比较、再选；但这只在「同一领区内」成立。</li>
+  <li><strong>先约号还是先准备材料</strong>：并行准备。行程一确定就启动预约，材料同步准备，不要等材料全齐才想起来约号，热门领区旺季经常提前数周约满。</li>
+</ul>
+
+<h2>能不能跨领区递交？原则上不行，例外要先确认</h2>
+<p>原则上必须按常住地所属领区递交，跨领区递交可能被签证中心拒收、退回材料，等于重新排队。以下几种情况有例外可能，但每一种都要<strong>事先向对应使领馆或签证中心书面确认</strong>，不要自己判断：</p>
+<ul>
+  <li><strong>常住地与户籍地长期分离</strong>：人在外地工作、居住多年，能提供居住证明的，一般按常住地领区递交——这本身不是「跨领区」，而是按常住地认定。</li>
+  <li><strong>港澳居民</strong>：香港、澳门居民通常向驻港澳总领馆递交，不走内地签证中心；但内地出具的文件（银行账单、在职证明等）可能无法在港澳领馆受理，须按领馆要求来。</li>
+  <li><strong>个别国家的特殊类别</strong>：少数国家对留学、长期居留等 D 类签证或特定人群有单独的受理安排，须按该国当期公告走。</li>
+  <li><strong>使领馆明确书面同意的个案</strong>：确有正当理由无法在所属领区递交的，使领馆可能个案接受，但必须先拿到确认再约号。</li>
+</ul>
+<p>反过来，「另一个领区有号」「朋友在那个城市」都不是跨领区的正当理由。不要为抢一个号跨领区：约上了也可能被拒收，损失的是重新排队的几周时间。约不到号的正确应对见<a href="/guide/no-appointment-slots/">预约不到号怎么办</a>与<a href="/guide/slot-release-time/">放号时间有规律吗</a>。</p>
+
+<h2>选错领区的代价：三笔时间账</h2>
+<ul>
+  <li><strong>被拒收重约</strong>：材料退回后重新约号，热门领区旺季可能又要等数周。</li>
+  <li><strong>审理时钟不等人</strong>：申根签证通常 15 个自然日出结果，个别情况可延长至 45 天；递交窗口是最早出行前 6 个月、最晚出行前 15 天，重约一次就可能撞上底线。</li>
+  <li><strong>签证费不退</strong>：成人签证费 90 欧元（2024 年 6 月 11 日起），另付签证中心服务费；领区选错导致的重递，费用与时间都要重花。</li>
+</ul>
+
+<section class="card">
+<h2>关键数字（官方口径）</h2>
+<ul class="data">
+  <li>主访国判定：停留最长的国家；无主访国时为首入国（欧盟《签证法典》）。</li>
+  <li>领区依据：常住地（工作/居住地），护照签发地与常住地不一致时一般按近 6 个月居住证明所在地认定。</li>
+  <li>法国：6 个领区（北京、上海、广州、成都、武汉、沈阳），TLScontact 在 15 个城市受理。</li>
+  <li>意大利：15 个签证中心，分属北京、重庆、上海、广州四个使领馆领区。</li>
+  <li>签证费：成人 90 欧元 / 6–12 岁 45 欧元 / 6 岁以下免费（2024-06-11 起，另付签证中心服务费）。</li>
+  <li>递交窗口：出行前 6 个月 ～ 15 天之间；审理通常 15 天，最长可至 45 天。</li>
+  <li>旅行医疗保险保额：不低于 3 万欧元。</li>
+</ul>
+<p class="fine">本页事实来源：欧盟《签证法典》(EC) No 810/2009 第 5 条（主管成员国）、法国 France-Visas 官网中国页面（france-visas.gouv.fr 中国页列出 TLScontact 各中心）、VFS Global 意大利签证页面与意大利驻华使领馆「在中国哪里申请签证」页面、德国外交部驻华使领馆问答（核查日期：2026-11-27）。各国受理安排可能调整，递交前请以目的国使领馆与签证中心官网当期公告为准。%SOURCES%</p>
+</section>
+
+<section class="card">
+<h2>常见问题</h2>
+<div class="faq-item"><h3>申根签证领区是按户籍还是按常住地划分？</h3><p>按常住地划分。原则上向你长期工作、居住地所属领区的使领馆或签证中心递交，证明材料通常是居住证、在职证明、社保或近 6 个月居住证明。护照签发地与常住地不一致时，一般按常住地认定。</p></div>
+<div class="faq-item"><h3>同一个省，在不同国家属于不同领区吗？</h3><p>有可能。各国领区划分不完全一致：同一个省份，在法国可能属上海领区、在意大利可能属北京领区。每个国家的领区是各自使领馆划的，必须逐国核对，不能跨国套用。</p></div>
+<div class="faq-item"><h3>领区内有号的城市和没号的城市，能换城市约吗？</h3><p>同一领区内的多个签证中心通常可以任选，领区内的城市之间可以比较号源、再选离自己近的。但这只在同一领区内成立，不能为了「哪里有号」跨领区换城市，跨领区递交可能被拒收。</p></div>
+<div class="faq-item"><h3>你们的放号提醒是自动实时监控吗？</h3><p>不是。本站目前没有自动实时监控：核查在每个工作日以人工＋半自动方式进行一次，发现新的可预约时段当天发邮件提醒。提醒只能帮你尽早知道，不能保证一定约得上；付费版（更高核查频率）正在筹备中，尚未上线。</p></div>
+</section>
+<p><a href="/guide/visa-centers/">→ 看各国受理机构与领区对照</a> · <a href="/guide/appointment-process/">→ 先看预约递交全流程</a> · <a href="/#subscribe">→ 回到首页订阅放号提醒</a></p>
+</article>
+"""
 
 
 def article_ld(title, desc, path, date=None):
@@ -703,6 +777,29 @@ def main():
          GUIDE_IT_VFS.replace("%SOURCES%", SOURCES_NOTE) + form_html("guide-it-vfs-form"), ogtype="article",
          jsonld=it_vfs_ld)
 
+    lingqu_faq = [
+        ("申根签证领区是按户籍还是按常住地划分？",
+         "按常住地划分。原则上向你长期工作、居住地所属领区的使领馆或签证中心递交，证明材料通常是居住证、在职证明、社保或近 6 个月居住证明。护照签发地与常住地不一致时，一般按常住地认定。"),
+        ("同一个省，在不同国家属于不同领区吗？",
+         "有可能。各国领区划分不完全一致：同一个省份，在法国可能属上海领区、在意大利可能属北京领区。每个国家的领区是各自使领馆划的，必须逐国核对，不能跨国套用。"),
+        ("领区内有号的城市和没号的城市，能换城市约吗？",
+         "同一领区内的多个签证中心通常可以任选，领区内的城市之间可以比较号源、再选离自己近的。但这只在同一领区内成立，不能为了「哪里有号」跨领区换城市，跨领区递交可能被拒收。"),
+        ("你们的放号提醒是自动实时监控吗？",
+         "不是。本站目前没有自动实时监控：核查在每个工作日以人工＋半自动方式进行一次，发现新的可预约时段当天发邮件提醒。提醒只能帮你尽早知道，不能保证一定约得上。"),
+    ]
+    lingqu_ld = {"@context": "https://schema.org", "@graph": [
+        article_ld("申根签证领区怎么划分按什么选递交城市",
+                   "先定主访国、再按常住地找领区：领区按常住地划分、各国划分不完全一致，同一领区内可按方便与号源选城市，跨领区递交可能被拒收。",
+                   "/guide/schengen-lingqu-huafen/", date="2026-11-27"),
+        {"@type": "FAQPage",
+         "mainEntity": [{"@type": "Question", "name": q,
+                         "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in lingqu_faq]},
+    ]}
+    page("/guide/schengen-lingqu-huafen/", "申根签证领区怎么划分按什么选递交城市 | " + SITE["name"],
+         "申根签证领区按常住地划分：先按行程定主访国，再按常住地找该国在华领区，同一领区内按方便与号源选递交城市。跨领区递交可能被拒收。",
+         GUIDE_LINGQU.replace("%SOURCES%", SOURCES_NOTE) + form_html("guide-lingqu-form"), ogtype="article",
+         jsonld=lingqu_ld)
+
     faq_items = "\n".join(
         '  <div class="faq-item"><h3>%s</h3><p>%s</p></div>' % (q, a) for q, a in FAQ)
     faq_ld = {"@context": "https://schema.org", "@type": "FAQPage",
@@ -732,6 +829,7 @@ def main():
             ("/guide/slot-release-time/", "2026-11-17"),
             ("/guide/france-tlscontact-how-to-book/", "2026-11-19"),
             ("/guide/italy-vfs-how-to-book/", "2026-11-21"),
+            ("/guide/schengen-lingqu-huafen/", "2026-11-27"),
             ("/faq/", TODAY), ("/privacy/", TODAY)]
     sm = ['<?xml version="1.0" encoding="UTF-8"?>',
           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
@@ -752,6 +850,7 @@ def main():
                 "- 放号时间有规律吗: %s/guide/slot-release-time/\n"
                 "- 法国 TLScontact 怎么约: %s/guide/france-tlscontact-how-to-book/\n"
                 "- 意大利 VFS 怎么约: %s/guide/italy-vfs-how-to-book/\n"
+                "- 领区怎么划分、按什么选递交城市: https://schengen-slot-alert.pages.dev/guide/schengen-lingqu-huafen/\n"
                 "- 常见问题: %s/faq/\n- 隐私说明: %s/privacy/\n"
                 % (SITE["name"], SITE["name_en"], SITE["tagline"], SITE["domain"],
                    SITE["domain"], SITE["domain"], SITE["domain"], SITE["domain"], SITE["domain"], SITE["domain"], SITE["domain"], SITE["domain"], SITE["domain"]))
